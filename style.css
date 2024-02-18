@@ -4,6 +4,13 @@ body{
 pre{
     color: darkslategrey;
 }
-h1{
+h1{ 
+    text-shadow: 3px 2px 5px aquamarine;
     color: lightseagreen;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px burlywood;
 }
