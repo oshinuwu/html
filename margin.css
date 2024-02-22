@@ -1,8 +1,12 @@
 div{
+    margin-top: 75px;
     border: 5px solid;
-    height: 100px;
+    height: 500px;
+    width: 400px;
     overflow: scroll;
 }
-img{
-    float: right;
+body{
+    font-style: oblique;
+    font-size: medium;
+    background-image: url(images/yellow.jpg);
 }
