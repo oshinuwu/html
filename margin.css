@@ -9,4 +9,6 @@ body{
     font-style: oblique;
     font-size: medium;
     background-image: url(images/yellow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

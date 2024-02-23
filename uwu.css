@@ -1,0 +1,16 @@
+/* uwu.css */
+
+div a:link {
+    color: rgb(40, 79, 80);
+}
+
+div a:hover {
+    color: rgb(35, 205, 211);
+    font-size: 1.1em;
+}
+div a:active{
+    color: black;
+}
+div a:visited{
+    color: rgb(137, 77, 35);
+}
