@@ -14,3 +14,26 @@ div a:active{
 div a:visited{
     color: rgb(137, 77, 35);
 }
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: bisque;
+}
+p::selection{
+    color: rgb(143, 176, 237);
+    background-color: black;
+}
+#colourss li::before{
+    content: "✔️";
+}
+#black::after{
+    content: "🖤";
+}
+#white::after{
+    content: "🤍";
+}
+#yellow::after{
+    content: "💛";
+}
