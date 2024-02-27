@@ -1,3 +1,6 @@
+.dropdown{
+    display: inline-block;
+}
 .dropdown button{
     background-color: cadetblue;
     color: azure;
