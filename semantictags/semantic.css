@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: darkcyan;
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(115, 182, 160);
+    padding: 10px 15px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: beige;
+    text-decoration: none;
+    padding: 15px ;
+    display: block;
+    text-align: center;
+}
+.navbar a.active{
+    background-color: rgb(6, 96, 66);
+}
+.navbar a:hover{
+    background-color: rgb(88, 102, 97);
+}
+.navbar li{
+    float: left;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(138, 136, 126);
+    text-align: center;
+    padding: 15px;
+}
+@media screen and (max-width:600px){
+    aside, section, article {
+        width: 100%; /*this lets the articles section and aside portion to display on full screen if its not a desktop */
+    }
+}
