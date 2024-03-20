@@ -1,4 +1,5 @@
-let xp = 0;
+document.addEventListener('DOMContentLoaded', function() {
+    let xp = 0;
 let health = 100;
 let cash = 500;
 let weapon = 0;
@@ -19,20 +20,20 @@ button2.onclick = gobattle;
 button3.onclick = goinventory;
 
 function golobby() {
-    button1.innerHTML = "buy 10 health(100 cash)";
-    button2.innerHTML = "buy a weapon(100 cash)";
-    button3.innerHTML = "go to town square";
+button1.innerHTML = "buy 10 health(100 cash)";
+button2.innerHTML = "buy a weapon(100 cash)";
+button3.innerHTML = "go to town square";
 }
 
 function gobattle() {
-    console.log("Going into a battle");
-    // Add your battle logic here
+console.log("Going into a battle");
+// Add your battle logic here
 }
 
 function goinventory() {
-    console.log("Going to inventory");
-    // Add your inventory logic here
+console.log("Going to inventory");
+// Add your inventory logic here
 }
 
-// Update button texts when the page loads
-golobby();
+
+});
