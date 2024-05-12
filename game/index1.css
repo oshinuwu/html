@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+#text{
+    background-color: black;
+    padding: 10px;
+    color: antiquewhite;
+    text-align: center;
+}
+#game{
+    max-width: 500px;
+    max-height: 400px;
+    background-color: beige;
+    color: black;
+    margin: auto;
+    padding: 10px;
+}
+#controls{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+#stats{
+    border: 1px solid black;
+    padding: 10px;
+}
