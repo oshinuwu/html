@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: darkcyan;
+    font-style: oblique;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    margin-left: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(115, 182, 160);
+    padding: 10px 15px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: beige;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a.active {
+    background-color: rgb(6, 96, 66);
+}
+
+.navbar a:hover {
+    background-color: rgb(88, 102, 97);
+}
+
+.navbar li {
+    float: left;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    clear: both;
+    background-color: rgb(138, 136, 126);
+    text-align: center;
+    padding: 15px;
+}
+
+footer .phone a {
+    text-decoration: none;
+    color: inherit;
+}

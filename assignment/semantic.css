@@ -1,0 +1,17 @@
+aside {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+section {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
